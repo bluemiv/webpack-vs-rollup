@@ -1,0 +1,13 @@
+{
+  "name": "webpack-vs-rollup",
+  "version": "1.0.0",
+  "main": "index.js",
+  "workspaces": {
+    "packages": ["packages/**", "apps/**"]
+  },
+  "scripts": {
+    "webpack-core": "yarn workspace @webpack-vs-rollup/webpack-core",
+    "rollup-core": "yarn workspace @webpack-vs-rollup/rollup-core"
+  },
+  "license": "MIT"
+}
