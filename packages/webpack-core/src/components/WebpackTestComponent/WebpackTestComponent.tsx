@@ -1,10 +1,10 @@
-import React from "react";
+import React from 'react';
 
-interface RollupTestComponentProps {
+interface WebpackTestComponentProps {
   name: string;
 }
 
-const WebpackTestComponent = ({ name }: RollupTestComponentProps) => {
+const WebpackTestComponent = ({ name }: WebpackTestComponentProps) => {
   return <h1>Hello, {name}</h1>;
 };
 
